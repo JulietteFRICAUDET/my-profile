@@ -1,0 +1,77 @@
+body {
+    background-color: #f0e4d7; /* Couleur de fond douce */
+    color: #333; /* Couleur de texte */
+    font-family: 'Arial', sans-serif; /* Police moderne */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 40px; /* Espacement autour du header */
+}
+
+.profile-pic {
+    border-radius: 50%; /* Image ronde */
+    width: 150px; /* Largeur de l'image */
+    height: 150px; /* Hauteur de l'image */
+    object-fit: cover; /* Ajustement de l'image */
+    margin-bottom: 20px; /* Espacement en bas de l'image */
+}
+
+h1 {
+    color: #2c3e50; /* Couleur du titre */
+    font-family: 'Helvetica', sans-serif; /* Police pour le titre */
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 36px;
+}
+
+h2 {
+    color: #2980b9; /* Couleur des sous-titres */
+    font-size: 28px; /* Taille des sous-titres */
+}
+
+.box {
+    background-color: white; /* Couleur de fond de la boîte */
+    border: 1px solid #ddd; /* Bordure de la boîte */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    margin: 20px auto; /* Espacement extérieur */
+    width: 80%; /* Largeur de la boîte */
+    max-width: 600px; /* Largeur maximale */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+}
+
+.cta-button {
+    display: inline-block; /* Affichage en bloc */
+    background-color: #e74c3c; /* Couleur du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    border-radius: 5px; /* Coins arrondis du bouton */
+    text-decoration: none; /* Pas de soulignement */
+    font-weight: bold; /* Texte en gras */
+    margin-top: 20px; /* Espacement au-dessus du bouton */
+}
+
+.cta-button:hover {
+    background-color: #c0392b; /* Couleur du bouton au survol */
+}
+
+ul {
+    list-style-type: none; /* Pas de puces */
+    padding: 0; /* Pas de remplissage */
+}
+
+ul li {
+    margin: 10px 0; /* Espacement entre les éléments de la liste */
+}
+
+a {
+    color: #2980b9; /* Couleur des liens */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
